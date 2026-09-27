@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>当Oler穿越OI修仙界</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@5/themes/dark.css">
+</head>
+<body>
+  <div id="app">天道法则加载中...</div>
+  <script>
+    window.$docsify = {
+      name: 'OI修仙界',
+      repo: 'https://github.com/Carbon-Atom/OL-Xiuxian',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      homepage: 'README.md',
+      coverpage: false,
+      search: {
+        placeholder: '搜索功法、章节、设定...',
+        noData: '天道未收录此内容',
+        depth: 3
+      },
+      copyCode: {
+        buttonText: '复制',
+        errorText: '复制失败',
+        successText: '已复制'
+      },
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      auto2top: true,
+      themeColor: '#42b983',
+      topMargin: 90
+    }
+  </script>
+  <!-- Docsify 核心 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5/lib/docsify.min.js"></script>
+  <!-- 搜索插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@5/lib/plugins/search.min.js"></script>
+  <!-- 代码复制插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 上下章翻页插件 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 字数统计 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-word-count/dist/docsify-word-count.min.js"></script>
+  <!-- Markdown 增强（支持emoji等） -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+</body>
+</html>
